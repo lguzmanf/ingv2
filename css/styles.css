@@ -1,0 +1,325 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair';
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Montserrat';
+  line-height: 2;
+}
+
+
+
+li {
+  font-family: 'Montserrat';
+}
+
+
+/* Headings */
+.big-heading {
+  font-family: 'Sacramento';
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #11CBD7;
+}
+
+.section-heading {
+  color: #11CBD7;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #11CBD7;
+}
+
+.white.section {
+  background-color: #F0FFF3;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navigation-text {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Sacramento';
+}
+
+.navigation-text:hover {
+  color: #C6F1E7;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* title section*/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  color: #11CBD7;
+  background-color: #000;
+}
+
+
+.civil {
+  font-size: 2.5rem;
+  font-family: 'Sacramento';
+}
+
+.title-image {
+  width: 12rem;
+  border-radius: 8rem;
+  position: relative;
+  left: 3rem;
+
+}
+
+@media (max-width:992px) {
+  #title .container-fluid {
+    text-align:center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
+
+
+/* Profile Section*/
+.profile-box {
+  padding: 4%;
+}
+
+.profile-title {
+  color: #11CBD7;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 7% auto;
+}
+
+.intro {
+  padding-top: 2%;
+  text-align: justify;
+}
+
+.list-text {
+  padding: 1% 0;
+  text-align: center;
+}
+
+.icon {
+  padding: 2rem;
+}
+
+#profile .profile-box {
+  padding: 0 4%;
+}
+
+/* Education Section */
+
+#education {
+  background-color: #C6F1E7;
+}
+
+#education a {
+  color: #11CBD7;
+  text-decoration: none;
+
+}
+
+#education a:hover {
+  color: #FA4659;
+}
+
+.education-text {
+  line-height: 1.5;
+}
+
+.education-title {
+  color: #11CBD7;
+  font-size: 1.5rem;
+}
+
+.education-image {
+  width: 10%;
+  margin: 5%;
+}
+
+.carousel-education-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-education-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+/* Knowledge Section */
+
+.knowledge-image {
+  width: 10%;
+  margin: 5%;
+}
+
+.knowledge-title {
+  color: #11CBD7;
+  font-size: 1.5rem;
+}
+
+.carousel-knowledge-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-knowledge-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+/* Experience Section */
+
+#experience {
+  background-color: #C6F1E7;
+}
+
+#experience a {
+  color: #11CBD7;
+}
+
+#experience a:hover {
+  color: #FA4659;
+  text-decoration: none;
+  font-style: 'Playfair';
+}
+
+#experience .icon {
+padding-bottom: 0;
+}
+
+.experience-box {
+  padding: 4%;
+  text-align: left;
+}
+
+.experience-box-title {
+  padding: 4% 4% 0;
+  text-align: left;
+}
+
+.experience-title {
+  color: #11CBD7;
+  font-size: 1.5rem;
+}
+
+.experience-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #11CBD7;
+  font-style: 'Playfair';
+}
+
+.carousel-experience-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-experience-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+/* Projects Section */
+
+#projects a {
+  font-family: 'Playfair';
+  font-size: 1.6rem;
+  color: #11CBD7;
+  font-weight: normal;
+}
+
+#projects a:hover {
+  color: #FA4659;
+  text-decoration: none;
+}
+
+#projects .icon {
+padding-bottom: 0;
+}
+
+.projects-box {
+  padding: 4%;
+  text-align: left;
+}
+
+.projects-box-title {
+  padding: 0 4%;
+  text-align: left;
+}
+
+.projects-subtitle {
+  color: #11CBD7;
+  font-size: 1.2rem;
+}
+
+.carousel-projects-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-projects-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2311CBD7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+/* Contact Section */
+
+#contact {
+  background-color: #C6F1E7;
+}
+
+#contact a {
+  color: #11CBD7;
+  text-decoration: none;
+}
+
+#contact .footer-link:hover {
+    color: #FA4659;
+}
+
+.contact-button {
+  margin: 5%;
+  border-color: #11CBD7;
+}
+
+.contact-button:hover {
+  background-color:  #F0FFF3;
+  border-color: #11CBD7;
+}
+
+.icon-btn {
+  color: #000;
+  padding: 1rem;
+}
+
+.footer-link {
+  font-family: 'Montserrat';
+
+
+}
+
+.copyright {
+  padding-top: 1.3rem;
+  font-size: 0.8rem;
+  font-family: 'Montserrat';
+}
